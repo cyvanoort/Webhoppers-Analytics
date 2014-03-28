@@ -1,0 +1,98 @@
+/* Created by Artisteer v4.0.0.58475 */
+
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.wha-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.wha-header
+{
+   z-index: 1;
+}
+
+.wha-hmenu>li, .wha-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.wha-hmenu, ul.wha-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+ul.wha-hmenu>li:first-child {
+   padding-right:0;
+}
+
+ul.wha-hmenu ul{
+   background-color: #96C8DE !important;
+}
+
+.wha-content-layout, .wha-content-layout-row, .wha-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.wha-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.wha-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.wha-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.wha-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.wha-postmetadataheader{
+   zoom:1;
+}
+
+.wha-postheadericons span{
+   zoom: 1;
+}
+.wha-postcontent {
+   height: 1%;
+}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.wha-content 
+{
+   width: auto;
+   float:none;
+}
+
